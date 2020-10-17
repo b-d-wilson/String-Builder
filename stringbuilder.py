@@ -1,5 +1,6 @@
 """Implementation of a StringBuilder"""
 
+
 class StringBuilder():
     """Builds a string"""
 
@@ -12,3 +13,4 @@ class StringBuilder():
 
     def to_string(self) -> str:
         self.delimiter.join(self.charlist)
+
