@@ -1,11 +1,13 @@
 from time import perf_counter as timer
+from typing import List
 
-def join_words(words):
+def join_words(words: List[str]) -> str:
     """Joins words using string concatenation"""
     sentence = ""
     for word in words:
         sentence += word
     return sentence
+
 
 test_words = ['hehe', 'haha', 'hoho', 'hawhaw', 'ehehe', 'muahahahahhaha'] * 100000
 start = timer()
